@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextSwitcher android:layout_height="wrap_content" android:id="@+id/textSwitcher1" android:layout_width="match_parent"></TextSwitcher>
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/nameTextBox" android:text="@string/blank"></EditText>
+    <Button android:text="@string/Hello" android:id="@+id/SayHiButton" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1"></Button>
+</LinearLayout>
