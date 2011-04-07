@@ -24,15 +24,11 @@ public class HelloButton2 extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         Button sayHi = (Button) findViewById(R.id.SayHiButton);
+        System.out.println("Now in the Dev Branch");
         
-        
-         greeter = (TextView) findViewById(R.id.nameTextBox);
+        greeter = (TextView) findViewById(R.id.nameTextBox);
         String ns = Context.NOTIFICATION_SERVICE;
-         mNotificationManager = (NotificationManager) getSystemService(ns);
-       
-       
-       
-       
+        mNotificationManager = (NotificationManager) getSystemService(ns);
         sayHi.setOnClickListener(new View.OnClickListener(){
         	public void onClick(View v){
         		Toast.makeText(v.getContext(), "HELLO WORLDSs!!!$$", Toast.LENGTH_LONG).show();
